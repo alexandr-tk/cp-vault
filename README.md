@@ -16,7 +16,7 @@
 ## Repository Overview
 
 This repository is my personal **technical reference** for competitive programming. It functions as a dual-purpose library:
-1.  **The Code:** A collection of optimized C++ implementations for the [CSES Problem Set](https://cses.fi/problemset/) and standard algorithms.
+1.  **The Code:** A collection of C++ and Java implementations for the [CSES Problem Set](https://cses.fi/problemset/) and standard algorithms.
 2.  **The Notes:** An interlinked **Obsidian Vault** covering the theory behind data structures, complexity analysis, and problem-solving patterns.
 
 I maintain this codebase to keep my algorithmic skills sharp and to have a reliable library of templates for contests.
@@ -27,22 +27,22 @@ I maintain this codebase to keep my algorithmic skills sharp and to have a relia
 The repository connects theory with practice:
 
 ### 1. Algorithms & Theory (`/Notes`)
-Markdown notes structured as a knowledge graph.
+Linked Markdown notes for study and reference.
 * **Core Concepts:** Dynamic Programming, Graph Traversal (BFS/DFS), Number Theory.
 * **Analysis:** Time complexity proofs and optimization techniques.
 
 ### 2. Solutions & Implementations (`/Code`)
-Solutions targeting C++20.
+C++ solutions target C++20; some solutions use Java.
 * **CSES Solutions:** Categorized by topic (Sorting, Searching, Graphs).
-* **Templates:** Reusable snippets for standard problems (e.g., Segment Trees, DSU).
+* **Templates:** A Markdown template for documenting algorithms in `Templates/Algorithm Template.md`.
 
 
 ## Tech Stack
 
 | Component | Usage |
 | :--- | :--- |
-| **C++ (GCC)** | Primary language for high-performance solutions. |
-| **Java** | Secondary language for BigInteger and OOP patterns. |
+| **C++ (GCC)** | Primary language for solutions. |
+| **Java** | Used for several dynamic programming solutions. |
 | **Obsidian** | Markdown-based tool for linking concepts and notes. |
 
 
@@ -50,14 +50,14 @@ Solutions targeting C++20.
 
 ```text
 .
-├── Algorithms/         # Standard algorithm implementations
+├── Algorithms/         # Algorithm notes
 ├── Code/               # CSES Problem solutions (Categorized)
 │   ├── Dynamic Programming/
 │   ├── Graph Algorithms/
 │   ├── Introductory Problems/
 │   └── Sorting & Searching/
 ├── Notes/              # Obsidian theory notes
-└── Templates/          # Contest boilerplate
+└── Templates/          # Algorithm note template
 ```
 
 ## 📄 License
